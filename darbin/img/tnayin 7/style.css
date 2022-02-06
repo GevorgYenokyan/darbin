@@ -1,0 +1,67 @@
+body{
+background: black;
+width: 900px
+
+}
+
+header{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,33,173,1) 45%, rgba(0,212,255,1) 100%);
+    width: 900px
+
+}
+
+.img1{
+	margin: 0px 0px 0px 100px
+}
+
+.img2{
+   position: absolute;
+
+   top: 55px;
+   right: 700px
+
+}
+h1{
+	color: white;
+	margin: 0px 0px 0px 100px
+}
+
+.himn{
+  color: white;
+}
+
+
+div{
+  background: url("https://i1.wp.com/www.csscodelab.com/wp-content/uploads/2019/12/pure-css-weather-card-flexbox.png?fit=1099%2C667&ssl=1") ;
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+}
+  .erku{
+  	color: white;
+  	text-align: right;
+
+  }
+.ereq{
+	background: url("https://ya-magazin.ru/i/oboi/marburg_home_classic_belvedere_30703.jpg");
+    background-size: 400% 200%;
+}
+
+.tiki{
+ background:rgb(161,37,75);
+ line-height: 20px;
+ margin: 0px 0px 0px 40px
+
+}
+.taka{
+ background: rgb(161,37,75);
+ line-height: 20px;
+ margin: 0px 0px 0px 80px;
+}
+
+.contr{
+ color: red;
+ background: rgb(225,233,19);
+ line-height: 20px;
+ font-family: 'Quicksand', sans-serif;
+ margin: 0px 0px 0px 80px;
+}

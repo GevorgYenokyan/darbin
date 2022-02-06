@@ -1,0 +1,393 @@
+*{
+	margin: 0PX;
+	padding: 0PX;
+	box-sizing: border-box;
+}
+
+
+.cont_all_block{
+	width: 100%;
+	background: linear-gradient(70deg, rgba(70, 65, 66, 0.8) 0%, rgba(70, 65, 66, 0.8) 70%);
+	margin: auto;
+}
+
+.nav{
+	background-image: url("img/background.png");
+	background-size: cover;
+    background: linear-gradient(70deg, rgba(95, 82, 85, 0.8) 0%, rgba(58, 54, 53, 0.8) 70%);
+	padding: 30px 0px;
+	width: 100%;
+	transition:  2s;
+}
+.nav_main{
+	display: flex;
+	justify-content: space-between;
+    margin: 0% auto;
+    color: white;
+}
+
+
+.nav_log_text{
+	margin: auto;
+	color: white;
+}
+
+.nav_list{
+	display: flex;
+	max-width: 100%;
+	justify-content: space-between;
+	list-style: none;
+	margin: 5PX;
+	color: white;
+	margin: auto;
+}
+
+.nav_iteam:hover{
+	color:#b4de50;
+}
+
+.nav_iteam{
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	margin: 0px 5px;
+	padding: 0px 5px;
+	border-left: solid 2px white;
+	border-right:solid 2px  white ;
+
+ }
+ .nav_logo{
+ 	display: flex;
+ 	justify-content: space-between;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	 background-color: rgb(30, 30, 32);
+	 width: 25%;
+
+ }
+
+ .btn_menu{
+	 display:flex;
+	 color: white;
+	 background-color: rgb(81, 129, 148);
+     margin: auto;
+	 font-size: 18px;
+	 border-radius: 10px;
+	 padding: 5px;
+ }
+ 
+
+.about_us{
+	display: flex;
+	flex-direction: column;
+	background-image:  url("../img/hudojhestvennaya_kovka.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.about_us_header{
+	margin: 25px auto;
+	color: white;
+	font-size: 30px;
+}
+ 
+ .about_us_text{
+	 margin: 15px auto;
+	 width: 70%;
+	 font-size: 25px;
+	 color: beige;
+	 background: linear-gradient(70deg, rgba(124, 119, 120, 0.3) 0%, rgba(58, 54, 53, 0.5) 70%);
+	 border-radius: 15px;
+ }
+.paragr{
+	display: flex;
+	width: 100%;
+	background-color: black;
+}
+.paragr_text{
+	color: blanchedalmond;
+	font-size: 25px;
+	font-family: Franklin;
+	margin:auto;
+}
+.header{
+	background-image:  url("../img/iron-gate-wrought-iron-metal-gate-cemetery.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding:12%;
+
+}
+h1{
+	text-align: center;
+	color: white;
+	margin: 0px auto;
+	padding: 50px auto;
+}
+
+.head_text{
+	display: flex;
+	text-align: center;
+	margin: 0px auto;
+	color: white;
+	font-size: 20px;
+
+
+}
+
+
+.slider {
+    border: 2px solid black;
+    width: 70%;
+    margin: 20px auto;
+    overflow: hidden;
+	position: relative;
+}
+
+.slider-contener{
+    width: 70%;
+    display: flex;
+    transition: all ease 1s;
+	max-height: 550px;
+}
+
+
+.cont_all{
+	position: relative;
+}
+
+.slider-prev{
+	background: transparent;
+	color:white;
+	background:linear-gradient(70deg, rgba(117, 224, 166, 0.8) 0%, rgba(88, 132, 138, 0.8) 40%);
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+    left: 2%;
+	font-size: 25px;
+	width: 60px;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+}
+.slider-next{
+	background: transparent;
+	color:white;
+	background:linear-gradient(70deg, rgba(117, 224, 166, 0.8) 0%, rgba(88, 132, 138, 0.8) 40%);	
+	border-radius: 5px;
+	position: absolute;
+	right: 2%;
+	top: 50%;
+	font-size: 25px;
+	width: 60px;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+
+}
+.sliderN{
+	position: absolute;
+	top: 0%;
+}
+.slideNamber{
+	color: black;
+	font-size:300%;
+}
+
+.close{
+	display: none;
+	color: white;
+	font-size: 45px;
+	background: rgba(26, 24, 24, 0.7);
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.close:hover{
+	background: rgba(10, 10, 10, 0.7);
+}
+
+.spna_close{
+	color: white;
+	font-size: 25px;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	padding: 50px 0px;
+}
+
+.footer_info{
+	text-decoration: none;
+	color: white;
+}
+
+.address{
+	display: flex;
+	justify-content: center;
+	max-width: 90%;
+}
+
+.video{
+	max-width: 90%;
+}
+.address_div{
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 25px auto;
+	background: linear-gradient(-70deg, rgba(19, 18, 18, 0.986) 50%, rgba(58, 54, 53, 0.8) 50%);
+}
+
+.phone{
+	list-style: none;
+	color: white;
+}
+
+
+@media(max-width:767px){
+
+
+	.nav_logo_left{
+		display: none;
+		visibility: hidden;
+	}
+
+	.head_par{
+     width:300px;	
+	 margin: auto;
+	 font-size: 25px;	
+	}
+	.head_text{
+		width: 300px;
+		margin: auto;
+		font-size: 20px;
+	}
+	.header{
+		width: 100%;
+		height: auto;
+	}
+	.nav_list{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: auto;
+	}
+	.slider-contener{
+		height: auto;
+		width:100%;
+	}
+	.slider{
+		width: 95%;
+	}
+
+  .nav_iteam{
+	padding: 0px 15px;
+	margin: 0% auto;
+	font-size: 15px;
+  }
+  .list_menu{
+	  margin: 5px auto;
+  }
+  .phone{
+	font-size: 10px;
+}
+}
+
+
+@media(max-width:900px){
+	.nav_log_text{
+		display: none;
+		width: 0%;
+	}
+   .nav_logo{
+	   display: none;
+	   background-size: 0%;
+	   background: none;
+   }
+   .nav{
+	   display: flex;
+	   justify-content: center;
+	   margin: 0 auto;
+	   background: none;
+	   width: 100%;
+   }
+
+   .nav_main{
+	   display: flex;
+	   margin: 0% auto;
+	   width: 80%;
+    }
+	.nav_list{
+		width: 100%;
+		margin: 0% 10%; 
+	}
+  
+
+  .address_div{
+	  flex-direction: column;
+	  width: 200%;
+	  margin: 20px auto;
+
+  }
+  .address{
+	  width: 90%;
+	  margin: 10% auto;
+  }
+  .video{
+	  width: 90%;
+	  margin: 20px auto;
+  }
+}
+
+@media(max-width:380px){
+ 
+	.nav_iteam{
+		padding: auto;
+		margin: 0% auto;
+		font-size: 15px;
+	  }
+
+	  .btn_menu{
+		  font-size: 20px;
+	  }
+
+	  .head_text{
+		  font-size: 20px;
+		  width: 90%;
+	  }
+
+	  .head_par{
+		  font-size: 20px;
+		  width: 90%;
+	  }
+}
+
+@media(max-width:1100px){
+  .products{
+	  flex-wrap: wrap;
+  }
+}
+
+@media(min-width:1600px){
+	.nav_iteam{
+		font-size: 30px;
+	}
+    .slider-contener{
+		max-height: 800px;
+	}
+}
+
+@media(min-width:1850px){
+  .prev_div{
+	  display: none;
+  }
+  .next_div{
+	  display: none;
+  }
+}
